@@ -1,0 +1,169 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+    margin: 0 auto;
+}
+/* header-section-start -----
+---------------------------*/
+header{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-manu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-option a, span{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+.nav-option span{
+    font-size: 22px;
+}
+/* header-section-end -----
+-------------------------*/
+
+/* -- Main-section-start --- 
+--------------------------*/
+.main-section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.influancer-info h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+.order-button{
+    background-color: #FF4F5A; 
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+.order-button i{
+    margin-left: 10px;
+}
+.influancer-picture img{
+    width: 450px;
+    height: 450px;
+    padding-left: 30px;
+}
+/* -- Main-section-end --- 
+--------------------------*/
+
+/* -- Product-list-section-start --- 
+--------------------------*/
+.product-hedding h1{
+    font-size: 2em;
+    text-align: center;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-row-gap: 15px;
+    width: 78%;
+    margin: 0 auto;
+}
+.product-list{
+    background-color: white;
+    box-shadow: 5px 5px rgb(233, 232, 232);
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.fa-star.filled{
+    font-size: 15px;
+    color: #FFC014;
+}
+.fa-star.empty{
+    font-size: 15px;
+    color: #bbd0d1;
+}
+.star-icon p, span{
+    color: #758283;
+}
+/* -- Product-list-section-end --- 
+--------------------------*/
+
+ /* link-arrow-section-start ------
+-------------------------------- */
+.link-arrow{
+    padding: 50px 0px;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+}
+.link-arrow a{
+    text-decoration: none;
+    color: #FF4F5A;
+}
+.link-arrow i{
+    padding-left: 10px;
+}
+ /* link-arrow-section-end ------
+-------------------------------- */
+    
+/* <!-- social-media-user-section-start --
+---------------------------------------- */
+.social-media{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.social-image img{
+    height: 280px;
+    width: 400px;
+    padding-right: 70px;
+}
+.social-info h1{
+    font-size: 40px;
+}
+.social-info p{
+    padding-bottom: 20px;
+}
+/* <!-- social-media-user-section-end --
+---------------------------------------- */
+
+/* <!-- footer-section-start --
+----------------------------- */
+.footer-element{
+    width: 100%;
+    padding: 25px 0px 30px 0px;
+    margin: 0 auto;
+    background-color:#03203C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-main{
+    text-align: center;
+    color: white;
+}
+.footer-main h2{
+    margin: 10px;
+}
+.footer-icon i{
+    font-size: 1.5em;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.footer-main small{
+    color: #758283;
+}
+
+/* <!-- footer-section-end --
+----------------------------- */
